@@ -59,9 +59,15 @@ body {
     color: #799928;
 }
 
-#promocion h2 {
+#promocion h1 {
+    margin-bottom: 3%;
+}
+
+#promocion p {
     font-size: 18px;
-    text-align: justify;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
 }
 
 #informacion {
@@ -122,12 +128,19 @@ body {
 }
 .card_center p {
     font-size: 18px;
-    color: #555555;
+    color: #537907;
 }
 .card_center img {
     max-width: 100%;
     border-radius: 5px;
     margin-top: 20px;
+}
+
+#promocion hr {
+    border:none; 
+    height:5px;
+    width: 10%;
+    background-color: #537907;
 }
 
 .container {
